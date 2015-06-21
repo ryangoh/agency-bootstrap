@@ -1,0 +1,14 @@
+// Place all the styles related to the FrontPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+    // background-image: url(../img/header-bg.jpg);
+    background-image: image-url("header-bg.jpg");
+
+}
+
+section#contact {
+    // background-image: url(../img/map-image.png);
+    background-image: image-url("map-image.png");
+}

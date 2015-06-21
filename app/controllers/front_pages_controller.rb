@@ -5,6 +5,8 @@ class FrontPagesController < ApplicationController
   # GET /front_pages.json
   def index
     @front_pages = FrontPage.all
+    @users = User.all
+    @batches = Batch.all
   end
 
   # GET /front_pages/1

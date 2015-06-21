@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  jobs: MyString
+  facebook: MyText
+  github: MyText
+  website: MyText
+  picture: MyText
+  role: MyString
+  batch_number: 1
+
+two:
+  name: MyString
+  jobs: MyString
+  facebook: MyText
+  github: MyText
+  website: MyText
+  picture: MyText
+  role: MyString
+  batch_number: 1

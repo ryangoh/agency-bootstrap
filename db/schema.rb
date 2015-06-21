@@ -11,14 +11,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150621032450) do
+ActiveRecord::Schema.define(version: 20150621111335) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "batches", force: :cascade do |t|
+    t.integer  "batch_number"
+    t.text     "batch_message"
+    t.string   "course_type"
+    t.datetime "start_date"
+    t.datetime "end_date"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
   create_table "front_pages", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "jobs"
+    t.text     "facebook"
+    t.text     "github"
+    t.text     "website"
+    t.text     "picture"
+    t.string   "role"
+    t.integer  "batch_number"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end

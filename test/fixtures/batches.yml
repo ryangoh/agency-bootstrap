@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  batch_number: 1
+  batch_message: MyText
+  course_type: MyString
+  start_date: 2015-06-21 19:13:35
+  end_date: 2015-06-21 19:13:35
+
+two:
+  batch_number: 1
+  batch_message: MyText
+  course_type: MyString
+  start_date: 2015-06-21 19:13:35
+  end_date: 2015-06-21 19:13:35
